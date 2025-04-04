@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    padding-top: 80px; 
+}
+
+nav {
+    background: #2D3748;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0; 
+    z-index: 1000;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px; 
+}
+
+ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+ul a:hover {
+    color: #f44336;
+    background: rgba(255, 255, 255, 0.1); 
+}
+.my-projects{
+    background-color: rgb(6, 82, 82);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 20px;
+    height: auto; 
+
+}
+
+.cards {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px; 
+}
+
+.cards h1, .headings {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: brown;
+    display: block;
+}
+.card-content {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px; 
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.card-content:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card-content a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+.card-content a:hover {
+    color: #f44336;
+}
+.card-content p {
+    color: #666; 
+    text-align: left; 
+    padding: 0 0 20px 0; 
+}
+.all-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px; 
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.flyers {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 15px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    object-fit: cover; 
+}
+.touch{
+    background-color: #2D3748;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    align-content: center;
+    display: block;
+    margin: 20px auto 0;
+    
+
+}
+footer {
+    background-color: #2D3748;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: red;
+}
+footer p{
+    color: white;
+}
+hr {
+    border: none;            
+    height: 2px;            
+    background-color: #333;  
+    margin: 20px 0;         
+}
