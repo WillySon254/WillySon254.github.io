@@ -54,6 +54,7 @@ ul a:hover {
     border-radius: 4px;
     width: 100%; 
     font-size: 16px;
+}
 #submit{
     background-color: #2D3748; 
     color: #fff; 
@@ -129,6 +130,7 @@ h1{
 .contact-item:hover {
     transform: translateY(-10px); 
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
 
 .contact-item h4 p {
     color: #666; 
