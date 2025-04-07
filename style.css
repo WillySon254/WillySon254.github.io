@@ -7,8 +7,8 @@
 
 body {
     background: #2D3748;
-    min-height: 100vh; /* Changed to min-height */
-    padding-top: 80px; /* Added for fixed nav */
+    min-height: 100vh; 
+    padding-top: 80px; 
 }
 
 nav {
@@ -21,66 +21,66 @@ nav {
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
     position: fixed;
-    top: 0; /* Added for fixed positioning */
-    z-index: 1000; /* Added to ensure nav stays on top */
+    top: 0;
+    z-index: 1000;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 20px; /* Replaced margin with gap */
+    gap: 20px;
 }
 
 ul a {
     color: #fff;
     text-decoration: none;
-    padding: 8px 12px; /* Added padding for better click area */
+    padding: 8px 12px;
     transition: all 0.3s ease;
 }
 
 ul a:hover {
     color: #f44336;
-    background: rgba(255, 255, 255, 0.1); /* Added subtle hover background */
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .welcome {
     background-color:  white;
     width: 100%;
-    height: auto; /* Changed to 100vh for full screen */
+    height: auto;
     align-content: center;
 }
 .profile-pic {
-    width: 200px; /* Adjusted size */
-    height: 200px; /* Adjusted size */
+    width: 200px; 
+    height: 200px;
     border-radius: 50%;
-    margin: 0 auto; /* Centered */
-    display: block; /* Centered image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
-    margin-top: 20px; /* Added margin for spacing */
+    margin: 0 auto; 
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; 
 }
 
 h1 {
     text-align: center;
     color:  #4A5568;
     padding-top: 20px;
-    font-size: clamp(2rem, 5vw, 3.5rem); /* Made responsive */
+    font-size: clamp(2rem, 5vw, 3.5rem); 
 }
 h2 {
     text-align: center;
     color:  #4A5568;
-    font-size: clamp(1.25rem, 3vw, 2rem); /* Made responsive */
+    font-size: clamp(1.25rem, 3vw, 2rem);
     padding: 20px 0 50px 0;
 }
 
 p {
     text-align: center;
     color: #4A5568;
-    font-size: 1.1rem; /* Slightly larger */
+    font-size: 1.1rem;
     padding: 20px 0 50px 0;
-    max-width: 800px; /* Added max-width */
-    margin: 0 auto; /* Centered */
-    line-height: 1.6; /* Improved readability */
+    max-width: 800px;
+    margin: 0 auto; 
+    line-height: 1.6; 
 }
 
 
@@ -88,26 +88,26 @@ p {
     background-color: orange;
     color: blueviolet;
     border: none;
-    padding: 12px 24px; /* Slightly larger */
+    padding: 12px 24px;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    font-weight: 600; /* Bold text */
-    transition: all 0.3s ease; /* Smooth transitions */
+    font-weight: 600; 
+    transition: all 0.3s ease;
 }
 .explore a {
     text-decoration: none; 
-    color: blueviolet; /* Changed to match button */
-    font-weight: 600; /* Bold text */
-    transition: all 0.3s ease; /* Smooth transitions */
+    color: blueviolet; 
+    font-weight: 600;
+    transition: all 0.3s ease; 
 }
 
 button:hover {
     background-color: blueviolet;
     color: #fff;
-    transform: translateY(-2px); /* Added lift effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -118,7 +118,7 @@ button {
 h3 {
     text-align: center;
     color: #fff;
-    font-size: clamp(1.5rem, 3vw, 2.5rem); /* Made responsive */
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     padding: 20px 0 50px 0;
 }
 
@@ -126,10 +126,10 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* Increased gap */
+    gap: 30px;
     padding: 20px;
-    max-width: 1200px; /* Added max-width */
-    margin: 0 auto; /* Centered */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .explore {
     background-color: #fff;
@@ -162,7 +162,7 @@ h3 {
 
 h4 {
     text-align: center;
-    color: #333; /* Darker for better contrast */
+    color: #333; 
     font-size: 1.5rem;
     padding: 20px 0;
 }
@@ -172,29 +172,29 @@ h4 {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    gap: 20px; /* Added gap */
+    gap: 20px;
 }
 
 .card-content {
     width: 300px;
-    border: 1px solid #ddd; /* Softer border color */
+    border: 1px solid #ddd; 
     border-radius: 10px;
-    padding: 25px; /* Slightly more padding */
+    padding: 25px; 
     margin-bottom: 20px;
-    background: white; /* Added white background */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Added shadow */
-    transition: all 0.3s ease; /* Smooth transitions */
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
 }
 
 .card-content:hover {
-    transform: translateY(-10px); /* Lift effect on hover */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
 }
 
 .card-content p {
-    color: #666; /* Darker gray for better readability */
-    text-align: left; /* Left-aligned for paragraphs */
-    padding: 0 0 20px 0; /* Adjusted padding */
+    color: #666;
+    text-align: left;
+    padding: 0 0 20px 0; 
 }
 .social-media{
     justify-content: space-between;
