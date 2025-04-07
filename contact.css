@@ -132,7 +132,7 @@ h1{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-.contact-item h4 p {
+.contact-item h4{
     color: #666; 
     text-align: left; 
     padding: 0 0 20px 0; 
