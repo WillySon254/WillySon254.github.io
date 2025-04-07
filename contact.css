@@ -13,8 +13,8 @@ nav {
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
     position: fixed;
-    top: 0; /* Added for fixed positioning */
-    z-index: 1000; /* Added to ensure nav stays on top */
+    top: 0;
+    z-index: 1000; 
 }
 body {
     background-color: #f0f0f0;
@@ -36,7 +36,7 @@ ul a {
 
 ul a:hover {
     color: #f44336;
-    background: rgba(255, 255, 255, 0.1); /* Added subtle hover background */
+    background: rgba(255, 255, 255, 0.1); 
 }
 .contact-form{
     margin-top: 80px;
@@ -44,30 +44,29 @@ ul a:hover {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    background-color: #fff; /* White background for the form */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 #name, #email, #subject, #message{
     padding: 10px;
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 4px; /* Rounded corners */
-    width: 100%; /* Full width */
-    font-size: 16px; /* Larger font size for better readability */
-}
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: 100%; 
+    font-size: 16px;
 #submit{
-    background-color: #2D3748; /* Dark background color */
-    color: #fff; /* White text */
-    padding: 10px 20px; /* Padding for the button */
-    border: none; /* Remove border */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    background-color: #2D3748; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
 }
 
 #submit:hover {
-    background-color: #f44336; /* Change background on hover */
+    background-color: #f44336;
 }
 
 
@@ -88,14 +87,14 @@ ul a:hover {
 .contact-info{
     flex-direction: row;
     align-items: center;
-    gap: 20px; /* Space between contact items */
+    gap: 20px;
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 100%; /* Full width */
-    max-width: 1200px; /* Limit maximum width */
-    margin: 0 auto; /* Center align */
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 .contact-methods{
     display: flex;
@@ -116,21 +115,20 @@ h1{
 }
 .contact-item {
     width: 300px;
-    border: 1px solid #ddd; /* Softer border color */
+    border: 1px solid #ddd; 
     border-radius: 10px;
-    padding: 25px; /* Slightly more padding */
+    padding: 25px; 
     margin-bottom: 20px;
-    background: white; /* Added white background */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Added shadow */
-    transition: all 0.3s ease; /* Smooth transitions */
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
     justify-content: center;
     display: flex;
 }
 
 .contact-item:hover {
-    transform: translateY(-10px); /* Lift effect on hover */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 
 .contact-item h4 p {
     color: #666; 
@@ -148,13 +146,13 @@ h1{
     color: #f44336; 
 }
 .contact-item p {
-    color: #666; /* Darker gray for better readability */
-    text-align: left; /* Left-aligned for paragraphs */
-    padding: 0 0 20px 0; /* Adjusted padding */
+    color: #666; 
+    text-align: left;
+    padding: 0 0 20px 0; 
 }
 .contact-item h4{
     text-align: center;
-    color: #333; /* Darker for better contrast */
+    color: #333; 
     font-size: 1.5rem;
     padding: 20px 0;
 }
